@@ -5,7 +5,7 @@ const AppTheme = {
     },
     dark: {
         backgroundColor: "black",
-        color: "white"
+        color: "#c2bdb0"
     }
 }
 
