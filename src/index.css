@@ -1,3 +1,11 @@
 body {
   margin: 0;
 }
+
+button {
+  cursor: pointer;
+}
+
+button:hover {
+  box-shadow: 3px 3px 22px rgb(133, 112, 112);
+}
