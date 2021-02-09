@@ -1,14 +1,14 @@
 import { useState } from 'react';
 import HeroSection from './Components/HeroSection';
-import ThemeContext from './Context/ThemeContext'
+import Context from './Context/ThemeContext'
 
 function App() {
   const themeHook = useState("light")
   return (
     <div className="App">
-      <ThemeContext.Provider value={themeHook}>
+      <Context.Provider value={themeHook}>
         <HeroSection />
-      </ThemeContext.Provider>
+      </Context.Provider>
     </div>
   );
 }
